@@ -1,0 +1,235 @@
+/* GLOBAL RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #0d0d0d;
+  color: white;
+  overflow-x: hidden;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background: rgba(0,0,0,0.65);
+  backdrop-filter: blur(8px);
+  z-index: 1000;
+}
+
+.navbar h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: gold;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar ul li {
+  margin-left: 30px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: gold;
+}
+
+/* HERO SECTION */
+.hero {
+  height: 100vh;
+  position: relative;
+}
+
+#heroVideo {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero-text {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+
+.hero-text h2 {
+  font-size: 70px;
+  font-weight: bold;
+  text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* BUTTONS */
+.btn, .btn-small {
+  padding: 12px 30px;
+  background: gold;
+  color: black !important;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.btn:hover, .btn-small:hover {
+  background: #e0b200;
+}
+
+/* COLLECTION GRID */
+.watch-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 35px;
+  padding: 50px;
+  margin-top: 20px;
+}
+
+.watch-card {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #333;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.watch-card:hover {
+  transform: translateY(-5px);
+  border-color: gold;
+}
+
+.watch-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* PRODUCT DETAILS PAGE */
+.product-details {
+  padding-top: 150px;
+}
+
+.product-details h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.product-details h2 {
+  color: gold;
+  margin: 20px 0;
+}
+
+/* ABOUT PAGE — PREMIUM DESIGN */
+.about-section {
+  padding: 150px 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-wrapper {
+  display: flex;
+  gap: 50px;
+  max-width: 1200px;
+  align-items: center;
+}
+
+.about-image img {
+  width: 500px;
+  border-radius: 15px;
+  box-shadow: 0 0 25px rgba(255, 215, 0, 0.25);
+  transition: 0.3s;
+}
+
+.about-image img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 35px rgba(255, 215, 0, 0.35);
+}
+
+.about-content h1 {
+  font-size: 48px;
+  color: gold;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.about-content p {
+  line-height: 1.8;
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #dddddd;
+}
+
+/* CONTACT FORM */
+.contact-box {
+  width: 45%;
+  margin: 150px auto;
+  background: #1a1a1a;
+  padding: 40px;
+  border-radius: 10px;
+  border: 1px solid #333;
+}
+
+.contact-box label {
+  font-size: 18px;
+}
+
+.contact-box input,
+.contact-box textarea {
+  width: 100%;
+  padding: 14px;
+  background: #111;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: white;
+}
+
+.contact-box button {
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 900px) {
+
+  .navbar {
+    padding: 15px 30px;
+  }
+
+  .about-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-image img {
+    width: 90%;
+  }
+
+  .about-content h1 {
+    font-size: 36px;
+  }
+
+  .contact-box {
+    width: 80%;
+  }
+
+  .hero-text h2 {
+    font-size: 45px;
+  }
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "name": "Royal Steel",
+    "price": 249000000,
+    "image": "assets/watch1.jpg",
+    "description": "Premium stainless steel watch with high-precision movement."
+  },
+  {
+    "id": 2,
+    "name": "Night Explorer",
+    "price": 319000000,
+    "image": "assets/watch2.jpg",
+    "description": "Matte black luxury watch built for adventure and elegance."
+  },
+  {
+    "id": 3,
+    "name": "Gold Emperor",
+    "price": 499000000,
+    "image": "assets/watch3.jpg",
+    "description": "24K gold-plated watch offering extreme luxury and craftsmanship."
+  },
+  {
+    "id": 4,
+    "name": "Ocean Blue",
+    "price": 189000000,
+    "image": "assets/watch4.jpg",
+    "description": "Deep blue dial with a stainless-steel body inspired by the ocean."
+  },
+  {
+    "id": 5,
+    "name": "Vintage Classic",
+    "price": 159000000,
+    "image": "assets/watch5.jpg",
+    "description": "Classic retro-inspired design for timeless elegance."
+  },
+  {
+    "id": 6,
+    "name": "Chrono Master",
+    "price": 279000000,
+    "image": "assets/watch6.jpg",
+    "description": "Advanced chronograph watch engineered for precision tracking."
+  },
+  {
+    "id": 7,
+    "name": "Titan Edge",
+    "price": 339000,
+    "image": "assets/watch7.jpg",
+    "description": "Ultra-light titanium build with scratch-resistant finish."
+  },
+  {
+    "id": 8,
+    "name": "Carbon Shadow",
+    "price": 289000,
+    "image": "assets/watch8.jpg",
+    "description": "Carbon fiber case with stealth black luxury styling."
+  },
+  {
+    "id": 9,
+    "name": "Royal Blue Sapphire",
+    "price": 385000,
+    "image": "assets/watch9.jpg",
+    "description": "Blue sapphire crystal with a royal premium finish."
+  },
+  {
+    "id": 10,
+    "name": "Silver Falcon",
+    "price": 199000,
+    "image": "assets/watch10.jpg",
+    "description": "Polished silver body with aerodynamic design."
+  },
+  {
+    "id": 11,
+    "name": "Emerald Luxe",
+    "price": 459000,
+    "image": "assets/watch11.jpg",
+    "description": "Emerald green dial with luxury gold accents for elite taste."
+  }
+]
